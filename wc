@@ -1,0 +1,10 @@
+wc works in the following format "wc -clmw x"
+
+where -clmw have the following effects
+    -c represents byte count
+    -l represents line count
+    -m represents character count
+    -w represents word count
+
+if wc is written without any of -clmw then the line count, word count and character count will be displayed for file x
+writing a combination of -c, -l, -m or -w will result in only ones written being displyed.
