@@ -1,0 +1,4 @@
+grep functions in the format "grep "x" y*.z"
+
+searches for x within filename y or filetype .z within the current directory
+if y & z are blank it will search all files called y or will search all filetypes .z
