@@ -1,0 +1,7 @@
+mv functions using the format "mv x y"
+where x is an existing file
+if y is a directory/ directory address x will be moved to that directory
+if y is an existing file y will be overwritten with the contents of x
+if y is a neither of the above two x will have its name rewritten to y
+
+In all 3 cases x is no longer in the current directory
